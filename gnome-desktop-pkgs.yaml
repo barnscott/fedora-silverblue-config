@@ -1,4 +1,3 @@
-	
 # DO NOT EDIT! This content is generated from comps-sync.py
 include: fedora-common-ostree.yaml
 packages:
@@ -20,7 +19,6 @@ packages:
   - fprintd-pam
   - gdm
   - glib-networking
-  - gnome-backgrounds
   - gnome-bluetooth
   - gnome-classic-session
   - gnome-color-manager

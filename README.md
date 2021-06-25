@@ -52,7 +52,7 @@ ideally more of the [FCOS pipeline](https://github.com/coreos/fedora-coreos-pipe
 Example to build a Live ISO from this repo:
 
 ```
-cosa init https://github.com/barnscott/fedora-silverblue-config --branch=testing
+cosa init https://github.com/barnscott/fedora-silverblue-config --branch=testing --force
 cosa fetch
 cosa build
 cosa buildextend-metal && cosa buildextend-metal4k
