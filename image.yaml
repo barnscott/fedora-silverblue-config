@@ -1,9 +1,10 @@
 size: 8
 # Shouldn't be necessary anymore
-extra-kargs: {}
+extra-kargs:
+  - mitigations=auto,nosmt
 # Copies of the fcos version
 ignition-network-kcmdline: []
 sysroot-readonly: true
 # Silverblue only
 # https://bugzilla.kernel.org/show_bug.cgi?id=203621
-#rootfs: btrfs
+rootfs: btrfs
