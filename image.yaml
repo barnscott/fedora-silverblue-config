@@ -1,7 +1,7 @@
 size: 8
 # Shouldn't be necessary anymore
 extra-kargs:
-  - mitigations=auto,nosmt
+  - mitigations=auto,nosmt 
 # Copies of the fcos version
 ignition-network-kcmdline: []
 sysroot-readonly: true
