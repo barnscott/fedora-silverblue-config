@@ -6,8 +6,8 @@ rojig:
   license: MIT
 packages:
   - fedora-release-silverblue
-  - desktop-backgrounds-gnome
-  - gnome-shell-extension-background-logo
+  # - desktop-backgrounds-gnome
+  # - gnome-shell-extension-background-logo
   - pinentry-gnome3
   # Does it really still make sense to ship Qt by default if we
   # expect people to run apps in containers?

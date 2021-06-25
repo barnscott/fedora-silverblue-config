@@ -1,3 +1,4 @@
+	
 # DO NOT EDIT! This content is generated from comps-sync.py
 packages:
   - NetworkManager
@@ -5,13 +6,10 @@ packages:
   - NetworkManager-config-connectivity-fedora
   - NetworkManager-wifi
   - NetworkManager-wwan
-  - PackageKit-gstreamer-plugin
-  - aajohan-comfortaa-fonts
   - abattis-cantarell-fonts
   - acl
-  # - adwaita-qt4
   - adwaita-qt5
-  - alsa-plugins-pulseaudio
+  - alsa-sof-firmware
   - alsa-ucm
   - alsa-utils
   - atmel-firmware
@@ -25,12 +23,12 @@ packages:
   - bc
   - bind-utils
   - bluez-cups
-  - bridge-utils
   - btrfs-progs
   - bzip2
   - chrony
   - cifs-utils
   - colord
+  - compsize
   - coreutils
   - cpio
   - cryptsetup
@@ -45,45 +43,40 @@ packages:
   - dnsmasq
   - e2fsprogs
   - ethtool
+  - exfatprogs
   - fedora-bookmarks
-  - fedora-user-agent-chrome
+  - fedora-chromium-config
+  - fedora-repos-modular
   - fedora-workstation-backgrounds
   - file
   - filesystem
   - firefox
   - firewalld
-  - foomatic
-  - foomatic-db-ppds
   - fpaste
   - fros-gnome
   - gamemode
   - glibc
   - glibc-all-langpacks
   - glx-utils
-  - gnu-free-mono-fonts
-  - gnu-free-sans-fonts
-  - gnu-free-serif-fonts
   - gnupg2
   - google-noto-emoji-color-fonts
   - google-noto-sans-cjk-ttc-fonts
-  - google-noto-sans-sinhala-fonts
-  - google-noto-serif-cjk-ttc-fonts
+  - google-noto-sans-gurmukhi-fonts
+  - google-noto-sans-sinhala-vf-fonts
   - gstreamer1-plugins-bad-free
   - gstreamer1-plugins-good
+  - gstreamer1-plugins-ugly-free
   - gutenprint
   - gutenprint-cups
   - hostname
   - hplip
   - hunspell
-  - hyperv-daemons
-  - ibus-gtk2
+  - ibus-anthy
   - ibus-gtk3
   - ibus-hangul
-  - ibus-kkc
   - ibus-libpinyin
   - ibus-libzhuyin
   - ibus-m17n
-  - ibus-qt
   - ibus-typing-booster
   - iproute
   - iptables
@@ -108,23 +101,24 @@ packages:
   - iwl6050-firmware
   - iwl7260-firmware
   - jomolhari-fonts
-  - julietaula-montserrat-fonts
   - kbd
   - kernel
   - kernel-modules-extra
-  - khmeros-base-fonts
+  - khmer-os-system-fonts
   - less
   - liberation-mono-fonts
   - liberation-sans-fonts
   - liberation-serif-fonts
+  - libertas-sd8686-firmware
+  - libertas-sd8787-firmware
   - libertas-usb8388-firmware
+  - libglvnd-gles
   - linux-firmware
   - logrotate
   - lohit-assamese-fonts
   - lohit-bengali-fonts
   - lohit-devanagari-fonts
   - lohit-gujarati-fonts
-  - lohit-gurmukhi-fonts
   - lohit-kannada-fonts
   - lohit-odia-fonts
   - lohit-tamil-fonts
@@ -133,54 +127,51 @@ packages:
   - lsof
   - man-db
   - man-pages
-  - mcelog
   - mdadm
   - mesa-dri-drivers
   - mesa-vulkan-drivers
-  - microcode_ctl
   - mlocate
   - mpage
   - mtr
+  - nano
+  - nano-default-editor
   - nfs-utils
   - nss-altfiles
   - nss-mdns
+  - ntfs-3g
   - ntfsprogs
-  - open-vm-tools-desktop
+  - opensc
   - openssh-clients
   - openssh-server
   - paktype-naskh-basic-fonts
+  - pam_afs_session
   - paps
-  - paratype-pt-sans-fonts
   - passwd
   - passwdqc
   - pciutils
   - pinfo
+  - pipewire-alsa
+  - pipewire-gstreamer
+  - pipewire-pulseaudio
+  - pipewire-utils
   - plymouth
   - plymouth-system-theme
   - policycoreutils
   - policycoreutils-python-utils
   - procps-ng
   - psmisc
-  - pulseaudio
-  - pulseaudio-module-x11
-  - pulseaudio-utils
+  - pt-sans-fonts
   - qemu-guest-agent
-  - qt
-  - qt-settings
-  - qt-x11
   - qt5-qtbase
   - qt5-qtbase-gui
   - qt5-qtdeclarative
   - qt5-qtxmlpatterns
   - quota
   - realmd
-  - rng-tools
   - rootfiles
-  - rp-pppoe
   - rpm
   - rsync
   - samba-client
-  - scl-utils
   - selinux-policy-targeted
   - setup
   - shadow-utils
@@ -198,36 +189,33 @@ packages:
   - sudo
   - system-config-printer-udev
   - systemd
+  - systemd-oomd-defaults
   - systemd-udev
   - tar
   - thai-scalable-waree-fonts
   - time
   - tree
   - unzip
+  - uresourced
   - usb_modeswitch
   - usbutils
   - util-linux
-  - vconfig
   - vim-minimal
-  - virtualbox-guest-additions
   - wget
   - which
-  - wireless-tools
   - words
+  - wpa_supplicant
+  - xorg-x11-drv-amdgpu
   - xorg-x11-drv-ati
   - xorg-x11-drv-evdev
   - xorg-x11-drv-fbdev
-  - xorg-x11-drv-intel
   - xorg-x11-drv-libinput
   - xorg-x11-drv-nouveau
-  - xorg-x11-drv-openchrome
   - xorg-x11-drv-qxl
-  - xorg-x11-drv-vesa
-  - xorg-x11-drv-vmware
   - xorg-x11-drv-wacom
   - xorg-x11-server-Xorg
-  - xorg-x11-utils
   - xorg-x11-xauth
   - xorg-x11-xinit
   - zd1211-firmware
   - zip
+  - zram-generator-defaults
