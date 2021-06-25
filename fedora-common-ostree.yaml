@@ -1,8 +1,9 @@
-ref: fedora/rawhide/${basearch}/ostree-base
+#ref: fedora/rawhide/${basearch}/ostree-base
+ref: fedora/34/${basearch}/silverblue
 
-automatic-version-prefix: "33"
-mutate-os-release: "33"
-releasever: 33
+automatic-version-prefix: "34"
+mutate-os-release: "34"
+releasever: 34
 
 include:
   - fedora-common-ostree-pkgs.yaml
