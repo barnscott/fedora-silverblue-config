@@ -9,7 +9,7 @@ packages:
   - aajohan-comfortaa-fonts
   - abattis-cantarell-fonts
   - acl
-  - adwaita-qt4
+  # - adwaita-qt4
   - adwaita-qt5
   - alsa-plugins-pulseaudio
   - alsa-ucm
